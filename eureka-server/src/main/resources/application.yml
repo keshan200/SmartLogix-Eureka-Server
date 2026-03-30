@@ -1,9 +1,8 @@
+server:
+  port: 8761
+
 spring:
   application:
     name: eureka-server
-  config:
-    import: "configserver:"
   cloud:
-    config:
-      uri: http://config.platform:8888
-
+     uri: http://config.platform:8888
