@@ -5,4 +5,4 @@ spring:
   application:
     name: eureka-server
   cloud:
-     uri: http://config.platform:8761
+     uri: http://config.platform:8888
